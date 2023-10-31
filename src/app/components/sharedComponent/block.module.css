@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.mainContentBox{
+    margin: 0 -5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    background-color: #fcfcfc;
+}
+
+
+.mainColumnContentText{
+    float: right;
+    padding:0px 0px 0px 65px;
+}
+
+.mainColumnContentText h1{
+  font-weight: 800;
+  font-size: 60px;
+ }
+
+.mainColumnContentText h3{
+ font-weight: 100;
+ color: #000000;
+}
+
+.mainColumnContentImage{
+    float: left;
+    padding:0px 70px 0px 0px;
+}
+
+.spanText{
+    color:#ed155a;
+}
+
+.button1 {
+    background-color: #ed155a;
+    border: 0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:15vw;
+    height: 4vw;
+    border-radius: 10vw;
+    transition: transform 0.3s ease;
+  }
+
+  .button2 {
+    background-color: white;
+    border: 2px solid #ed155a;
+    color:  #ed155a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:15vw;
+    height: 4vw;
+    border-radius: 10vw;
+    transition: transform 0.3s ease;
+  }
+
+  .mainButtonContainer{
+    margin: 20px 5px;
+    padding: 2px 2px;
+    display: flex;
+  }
+
+  .buttonContainer{
+    padding:0 10px
+  }
+
+  .textContent{
+      margin: 101px 1px 65px 11px;
+      padding: 1px 1px 1px 1px;
+      font-size: 35px;
+  }
+
+  .textContent h1{
+      padding: 1px 1px 25px 1px;
+  }

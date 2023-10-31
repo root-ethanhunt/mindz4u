@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.block {
+  padding: 20px;
+  background-color:#ed155a;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: url('../../../../public/footer4.png') ;
+  /* border-width: 0px; */
+  /* background-repeat: repeat; */
+  /* border:none; */
+  /* background-size: 250rem 30rem; */
+  /* background-size: 1000px 100px; */
+  /* animation: animate 15s linear infinite; */
+}
+
+/* .watermark{
+     font-size: 17px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
+} */
+
+
+
+.wave:nth-child(1) {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation:animateWaves 4s linear infinite;
+}
+
+.wave:nth-child(2) {
+  /* opacity: 0.5;
+  animation-delay: 0.2s;
+  animation-direction: reverse; */
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation:animate 4s linear infinite !important;
+}
+
+.wave:nth-child(3) {
+  /* opacity: 0.5;
+  animation-delay: 0.2s;
+  animation-direction: reverse; */
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation:animateWaves 3s linear infinite;
+}
+
+
+.wave:nth-child(4) {
+  /* opacity: 0.7;
+  animation-delay: 5s; */
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation:animate 3s linear infinite ;
+}
+
+@keyframes  animate {
+  0% {
+    background-position-x: -1000px;
+    /* background-position-x: -250rem; */
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes  animateWaves {
+  0% {
+    background-position-x: 1000px;
+    /* background-position-x: -250rem; */
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+
+.watermark{
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color:white;
+}
+
+
+
