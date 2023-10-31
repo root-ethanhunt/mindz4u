@@ -79,10 +79,14 @@
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
     overflow: hidden;
+    padding: 0px;
   }
 
   .nav_elements.active {
-    width: 270px;
+    width: 300px;
+    background-color: var(--main-color);  
+    margin: 15px 0px 0px 0px;    
+    padding-left: 15px;
   }
 
   .nav_elements ul {

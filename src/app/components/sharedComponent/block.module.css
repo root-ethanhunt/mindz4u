@@ -29,11 +29,11 @@
 }
 
 .spanText{
-    color:#ed155a;
+    color:  var(--main-color);;
 }
 
 .button1 {
-    background-color: #ed155a;
+    background-color:  var(--main-color);;
     border: 0;
     color: white;
     padding: 15px 32px;
@@ -51,8 +51,8 @@
 
   .button2 {
     background-color: white;
-    border: 2px solid #ed155a;
-    color:  #ed155a;
+    border: 2px solid  var(--main-color);;
+    color:   var(--main-color);;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
