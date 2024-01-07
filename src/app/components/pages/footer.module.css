@@ -92,5 +92,11 @@
   color:white;
 }
 
+@media screen and (max-width:473px) {
+  
+  .watermark{
+    font-size: 10px;
+  }
+ }
 
 

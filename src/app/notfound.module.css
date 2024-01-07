@@ -1,0 +1,46 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+  
+    height: 90vh;
+  }
+  
+  /*IMAGE*/
+  
+  .section__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image__img {
+    height: auto;
+    width: 75%;
+  }
+  
+  /*TEXT*/
+  
+  .section__text > * {
+    margin: 20px;
+  }
+  
+  .text__h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 3em;
+  }
+  
+  .text__p,
+  .text__btn {
+    font-family: "Space Mono", monospace;
+    font-size: 1em;
+  }
+  
+  .text__btn {
+    color: #ffffff;
+    background-color: #333333;
+  
+    padding: 13px 20px;
+    border: 1.8px solid #ff6d5b;
+  }

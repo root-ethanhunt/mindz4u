@@ -66,6 +66,18 @@
 }
 
 @media (max-width: 645px) {
+  .navbar {
+    /* height: 0px; */
+    margin:0rem 0rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 10px 0px 0px 19px;
+  }
+  
   .menu_icon {
     display: block;
     cursor: pointer;
@@ -97,5 +109,10 @@
   .nav_elements ul li {
     margin-right: unset;
     margin-top: 22px;
+  }
+
+  .navbarImg{
+    width: 50%;
+    height: auto;
   }
 }

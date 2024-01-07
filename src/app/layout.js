@@ -5,6 +5,7 @@ import Footer from "./components/pages/Footer.js";
 import styles from "./page.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

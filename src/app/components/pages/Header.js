@@ -23,6 +23,7 @@ const Header = () => {
             width={100}
             height={100}
             alt="Picture of the author"
+            className={style.navbarImg}
           />
         </div>
         <div className={style.menu_icon} onClick={handleShowNavbar}>
@@ -31,6 +32,7 @@ const Header = () => {
             width={70}
             height={70}
             alt="Picture of the author"
+            className={style.navbarImg}
           />
           {/* <button onClick={()=>setShowNavbar(showNavbar=>!showNavbar)}>hiii</button>
        <button onClick={() => setShowNavbar((value) => !value)}>CLICK ME!</button> */}
