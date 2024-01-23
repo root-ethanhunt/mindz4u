@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <div className={styles.wrapper}>
           <Navbar />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>

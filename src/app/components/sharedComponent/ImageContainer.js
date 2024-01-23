@@ -6,11 +6,12 @@ import styles from "./block.module.css";
 
 export default function Block() {
   return (
-    <div >
+    <div className="img-container">
       <Image
           src="/main_image.png"
           width={700}
           height={700}
+          // layout="intrinsic"
           objectFit="contain"
           alt="Picture of the author"
           className={styles.sideImg}
